@@ -1,4 +1,5 @@
 export interface Project {
+  id: string;
   title: string;
   tagline?: string;
   tech: string[];
@@ -10,6 +11,7 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "test-project",
     title: "Test Project",
     tagline: "A simple test project",
     tech: ["React", "TypeScript", "Node", "Express", "MongoDB"],
